@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-text {
+    color: white;
+}
+
+.nav-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: #212529;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px white;
+}
+
+.nav-button:hover {
+    background-color: white;
+    transition: 200ms;
+    color: black;
+}
+
+.middle-images {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: solid 3px #2C221C;
+}
+
+.right-side {
+    width: 50%;
+    height: 100%;
+}
+
+.right-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left-side {
+    width: 50%;
+    height: 100%;
+    background-color: #FEBE9C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side h1 {
+    color: #543E34;
+    font-size: 70px;
+}
+
+.left-side p {
+    color: #543E34;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.left-side button {
+    width: 200px;
+    height: 60px;
+    margin-top: 100px;
+    border: none;
+    background-color: #FEBE9C;
+    color: #543E34;
+    cursor: pointer;
+    border: solid 1px #543E34;
+}
+
+.left-side button:hover {
+    background-color: #543E34;
+    transition: 200ms;
+    color: white;
+}
+
+.bottom-images {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: solid 3px #2C221C;
+}
+
+.left-side-bottom {
+    width: 50%;
+    height: 100%;
+    background-color: #FFFBF3;
+}
+
+.left-side-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.right-side-bottom {
+    width: 50%;
+    height: 100%;
+    background-color: #543E34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side-bottom h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.right-side-bottom p {
+    color: white;
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+}
+
+.right-side-bottom button {
+    width: 200px;
+    height: 60px;
+    margin-top: 100px;
+    border: none;
+    background-color: #543E34;
+    color: white;
+    cursor: pointer;
+    border: solid 1px white;
+}
+
+.right-side-bottom button:hover {
+    background-color: white;
+    transition: 200ms;
+    color: #543E34;
+}
